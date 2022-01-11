@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/pakkaodia",
+            "outputPath": "dist",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "pakkaodia"
+    }
+  },
+  "defaultProject": "pakkaodia",
+  "cli": {
+    "analytics": "c3a85565-7ab1-407b-8fe5-5a935fe78f5c"
+  }
 }
